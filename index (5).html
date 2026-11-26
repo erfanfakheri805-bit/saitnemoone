@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0A0A0A">
+<title>خاک و آتش | رستوران</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Vazirmatn:wght@300;400;700&display=swap" rel="stylesheet">
+<noscript><style>.rv,.fu,.w,.hero .eb,.hero p{clip-path:none!important;opacity:1!important;transform:none!important}.pre{display:none}</style></noscript>
+<style>
+:root{--bg:#0A0A0A;--bg2:#111;--tx:#F5F5F5;--mu:#A3A3A3;--ac:#C85A17;--gd:#D4AF37;--ln:#2e2a26;--se:'Cormorant Garamond',serif;--nav:76px;--fb:linear-gradient(135deg,#1d1610,#0c0a08)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--tx);font:300 17px/2.05 Vazirmatn,sans-serif;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0;z-index:90;pointer-events:none;opacity:.07;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E")}
+img{display:block;width:100%;height:100%;object-fit:cover}
+a{color:inherit;text-decoration:none}
+h1,h2,h3{font-weight:300}
+p{color:var(--mu)}
+.pre{position:fixed;inset:0;background:var(--bg);z-index:99;display:grid;place-items:center;text-align:center;transition:opacity .7s,visibility .7s}
+.pre.x{opacity:0;visibility:hidden}
+.pre svg{width:34px;animation:fl 1s ease-in-out infinite alternate}
+.pre p{font-size:28px;color:var(--gd);animation:fo .6s ease both}
+@keyframes fl{to{transform:scale(1.15) translateY(-4px);opacity:.6}}
+@keyframes fo{from{opacity:0}}
+@keyframes up{from{opacity:0;transform:translateY(46px)}}
+@keyframes kb{to{transform:scale(1.1)}}
+@keyframes sp{to{transform:rotate(360deg)}}
+nav{position:fixed;inset:0 0 auto;z-index:50;height:var(--nav);display:flex;justify-content:space-between;align-items:center;padding:0 5vw;transition:.5s}
+nav.s{background:rgba(10,10,10,.78);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);height:64px;border-bottom:1px solid var(--ln)}
+.logo{font:700 23px/1.3 Vazirmatn;color:var(--gd);text-align:center}
+.logo small{display:block;font:400 10px var(--se);letter-spacing:.4em;color:var(--mu)}
+nav ul{display:flex;gap:34px;list-style:none;font-size:15px}
+nav ul a{position:relative;padding:4px 0;transition:color .4s}
+nav ul a::after{content:"";position:absolute;inset:auto 0 0;height:1px;background:var(--gd);transform:scaleX(0);transition:transform .4s}
+nav ul a:hover{color:var(--gd)}nav ul a:hover::after{transform:none}
+.hero{position:relative;min-height:100vh;min-height:100svh;display:grid;place-items:center;text-align:center;padding:calc(var(--nav) + 24px) 6vw 120px;overflow:hidden;background:radial-gradient(ellipse at 50% 90%,rgba(200,90,23,.4),transparent 62%),linear-gradient(#1d1208,#0a0a0a)}
+.hbg{position:absolute;inset:-8% 0;will-change:transform}
+.hbg i{display:block;height:100%;background:url(https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1800&q=75) center/cover;animation:kb 22s ease-in-out infinite alternate}
+.hero::after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at center,rgba(10,10,10,.45),rgba(10,10,10,.92) 115%),linear-gradient(rgba(10,10,10,.6),transparent 35%,rgba(10,10,10,.7))}
+.hc{position:relative;z-index:2}
+.eb{display:block;font:italic 400 20px var(--se);color:var(--ac);letter-spacing:.25em;text-transform:uppercase;margin-bottom:14px}
+.eb::after{content:"";display:inline-block;width:48px;height:1px;background:var(--gd);vertical-align:middle;margin-inline-start:14px}
+.hero .eb::before{content:"";display:inline-block;width:48px;height:1px;background:var(--gd);vertical-align:middle;margin-inline-end:14px}
+h1{font-size:clamp(40px,9vw,124px);line-height:1.4;text-shadow:0 4px 44px rgba(0,0,0,.75)}
+.w{display:inline-block;margin:0 .12em}
+.hero:not(.go) .w,.hero:not(.go) .eb,.hero:not(.go) .hc>p{opacity:0}
+.go .w{animation:up 1.2s cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(var(--i)*.14s)}
+.hero .eb,.hc>p{transition:opacity 1.2s .7s}
+.hc>p{margin-top:20px;color:#e2dcd1;font-size:clamp(16px,2vw,22px)}
+.sc{position:absolute;z-index:2;bottom:24px;left:50%;width:30px;margin-left:-15px;text-align:center;color:var(--gd);font-size:22px;line-height:1.4;animation:fl 1.4s ease-in-out infinite alternate}
+.sc::before{content:"";display:block;width:1px;height:52px;margin:0 auto 6px;background:linear-gradient(transparent,var(--gd))}
+section{padding:14vh 6vw;position:relative;scroll-margin-top:20px}
+#about,.res{background:radial-gradient(ellipse 60% 45% at 85% 0,rgba(200,90,23,.1),transparent),var(--bg)}
+.res{background:radial-gradient(ellipse 60% 50% at 50% 100%,rgba(200,90,23,.14),transparent),var(--bg2)}
+h2{font-size:clamp(34px,5vw,66px);line-height:1.45;margin-bottom:22px}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:8vw;align-items:center;max-width:1300px;margin:auto}
+.imgs{position:relative;padding-bottom:9%}
+.ph{position:relative;overflow:hidden;background:var(--fb);box-shadow:0 30px 80px rgba(0,0,0,.65)}
+.ph::after{content:"";position:absolute;inset:12px;border:1px solid rgba(212,175,55,.38);pointer-events:none;z-index:2}
+.a1{aspect-ratio:4/5}
+.a2{position:absolute;width:46%;aspect-ratio:1;bottom:0;left:-12%;border:10px solid var(--bg)}
+.a2::after{inset:8px}
+.rv{clip-path:inset(0 0 100% 0);transition:clip-path 1.5s cubic-bezier(.77,0,.18,1)}
+.rv.in{clip-path:inset(0)}
+.rv img{transform:scale(1.22);transition:transform 1.4s cubic-bezier(.2,.7,.2,1)}
+.rv.in img{transform:none}
+.fu{opacity:0;transform:translateY(30px);transition:1s cubic-bezier(.2,.7,.2,1)}
+.fu.in{opacity:1;transform:none}
+.split p+p{margin-top:14px}
+.sg{color:var(--gd)!important;margin-top:26px!important;border-top:1px solid var(--ln);padding-top:14px;display:inline-block}
+.menu{background:radial-gradient(ellipse at 15% 30%,rgba(200,90,23,.16),transparent 60%),var(--bg2);overflow:hidden}
+.mbg{position:absolute;inset:0;pointer-events:none}
+.mbg i{position:absolute;inset:0;background:center/cover;opacity:0;transform:scale(1.07);transition:opacity .9s ease,transform 1.8s ease}
+.mbg i.on{opacity:1;transform:none}
+.menu::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(var(--bg2),rgba(10,10,10,.58) 22%,rgba(10,10,10,.58) 78%,var(--bg2))}
+.mc{position:relative;z-index:2;max-width:1100px;margin:auto}
+.mi{display:grid;grid-template-columns:1fr auto;gap:2px 24px;padding:30px 0;border-bottom:1px solid rgba(212,175,55,.2);outline:0}
+.mi h3{font-size:clamp(26px,4.4vw,54px);line-height:1.6;transition:color .5s,transform .5s}
+.mi:hover h3,.mi:focus h3{color:var(--gd);transform:translateX(-14px)}
+.mi p{font-size:15px;color:#cfc8bc}
+.pr{grid-column:2;grid-row:1/3;align-self:center;font:700 clamp(15px,2vw,22px) Vazirmatn;color:var(--gd)}
+.mimg{display:none}
+.hd{max-width:1300px;margin:0 auto 6vh}
+.g{display:grid;grid-template-columns:repeat(12,1fr);grid-auto-rows:20vw;gap:16px;max-width:1300px;margin:auto}
+.g .ph:nth-child(1){grid-column:span 7;grid-row:span 2}
+.g .ph:nth-child(2),.g .ph:nth-child(3){grid-column:span 5}
+.g .ph:nth-child(4){grid-column:span 12}
+.g .ph:hover img{transform:scale(1.08)}
+figcaption{position:absolute;z-index:3;inset:auto 0 0;padding:40px 24px 22px;background:linear-gradient(transparent,rgba(10,10,10,.85));font-size:15px;color:var(--tx);transform:translateY(12px);opacity:0;transition:.6s}
+.ph:hover figcaption{transform:none;opacity:1}
+.res{text-align:center}
+.res .sub{max-width:520px;margin:0 auto}
+form{max-width:660px;margin:46px auto 0;display:grid;gap:28px;text-align:right;transition:.6s}
+form[hidden]{display:none}
+form.out{opacity:0;transform:translateY(-12px)}
+.f{display:grid;gap:4px}
+label{font-size:13px;color:var(--mu)}
+input,select{background:none;border:0;border-bottom:1px solid #3a342e;color:var(--tx);font:300 18px Vazirmatn;padding:8px 0;outline:0;border-radius:0;transition:.4s;width:100%}
+input:focus,select:focus{border-color:var(--gd);box-shadow:0 8px 14px -12px var(--gd)}
+select option{background:#111}
+.dt{display:flex;gap:10px;overflow-x:auto;padding:6px 2px 14px;scroll-snap-type:x proximity;scrollbar-width:none}
+.dt::-webkit-scrollbar{display:none}
+.dt button{flex:0 0 auto;display:grid;min-width:86px;padding:12px 10px;line-height:1.55;text-align:center;border:1px solid #3a342e;background:rgba(255,255,255,.02);color:var(--mu);font-family:Vazirmatn;transition:.35s;scroll-snap-align:start}
+.dt b{font:700 24px Vazirmatn;color:var(--tx)}
+.dt small{font-size:12px}
+.dt button:hover{transform:translateY(-3px);border-color:var(--gd);box-shadow:0 12px 24px rgba(0,0,0,.5)}
+.dt button.on{background:linear-gradient(160deg,#dcbc4e,#b38d1e);border-color:var(--gd);color:#0A0A0A;box-shadow:0 12px 30px rgba(212,175,55,.28)}
+.dt button.on b{color:#0A0A0A}
+.btn{position:relative;background:var(--ac);color:#fff;border:0;padding:17px;font:400 17px Vazirmatn;box-shadow:0 14px 40px rgba(200,90,23,.3);transition:.5s}
+.btn:hover:not(:disabled){background:var(--gd);color:#0A0A0A;transform:translateY(-2px)}
+.btn:disabled{opacity:.85}
+.btn.ld::before{content:"";display:inline-block;width:15px;height:15px;margin-inline-end:10px;vertical-align:-2px;border:2px solid rgba(255,255,255,.4);border-top-color:#fff;border-radius:50%;animation:sp .7s linear infinite}
+.ok{display:none;margin-top:46px;padding:44px 24px;border:1px solid rgba(212,175,55,.35);max-width:660px;margin-inline:auto}
+.ok.show{display:block;animation:up 1s cubic-bezier(.2,.7,.2,1) both}
+.ok h3{font-size:clamp(30px,4vw,46px);color:var(--gd)}
+.ok .sm{margin-top:10px;font-size:15px;color:var(--tx)}
+footer{border-top:1px solid var(--ln);padding:10vh 6vw 0;overflow:hidden;background:radial-gradient(ellipse 70% 60% at 50% 100%,rgba(200,90,23,.12),transparent),var(--bg)}
+.fg{display:grid;grid-template-columns:repeat(3,1fr);gap:40px;max-width:1300px;margin:auto;font-size:15px}
+.fg h4{font:italic 400 19px var(--se);color:var(--ac);letter-spacing:.2em;text-transform:uppercase}
+.fg a{transition:color .4s}.fg a:hover{color:var(--gd)}
+.big{font:italic 400 clamp(52px,15vw,230px)/1.05 var(--se);direction:ltr;text-align:center;white-space:nowrap;background:linear-gradient(#6a5236,rgba(106,82,54,0) 88%);-webkit-background-clip:text;background-clip:text;color:transparent;margin-top:8vh;transform:translateY(14%)}
+.cur{position:fixed;top:0;left:0;width:10px;height:10px;margin:-5px;border-radius:50%;background:var(--gd);z-index:200;pointer-events:none;transition:transform .1s ease-out,width .3s,height .3s,margin .3s,background .3s;display:none}
+.hc2 .cur{display:block}
+.hc2 *{cursor:none!important}
+.cur.h{width:58px;height:58px;margin:-29px;background:rgba(212,175,55,.18);border:1px solid var(--gd)}
+@media(max-width:899px){.mbg{display:none}
+.mimg{display:block;position:relative;grid-column:1/-1;aspect-ratio:16/10;margin-top:16px;overflow:hidden;background:var(--fb);box-shadow:0 20px 50px rgba(0,0,0,.6)}
+.mimg::after{content:"";position:absolute;inset:8px;border:1px solid rgba(212,175,55,.38);pointer-events:none}}
+@media(max-width:760px){:root{--nav:64px}
+nav ul li:not(:last-child){display:none}
+nav ul a{border:1px solid var(--gd);padding:3px 18px;font-size:14px;color:var(--gd)}
+nav ul a::after{display:none}
+.split,.fg{grid-template-columns:1fr}
+.a2{left:auto;right:-3%;width:42%}.imgs{margin-bottom:6vh}
+.g{grid-template-columns:1fr 1fr;grid-auto-rows:46vw}
+.g .ph:nth-child(n){grid-column:span 1;grid-row:auto}
+.g .ph:nth-child(1),.g .ph:nth-child(4){grid-column:span 2}
+.mi h3{font-size:28px}
+.hero .eb::before,.hero .eb::after{width:24px}}
+@media(hover:none){figcaption{transform:none;opacity:1}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="cur"></div>
+<div class="pre"><div><svg viewBox="0 0 24 32" fill="none" stroke="#C85A17" stroke-width="1.2"><path d="M12 1c1 6 8 9 8 18a8 8 0 0 1-16 0c0-4 2-6 4-8 0 3 2 4 3 4 1-4-1-9 1-14z"/></svg><p>خاک و آتش</p></div></div>
+<nav><a class="logo" href="#top">خاک و آتش<small>EARTH &amp; FIRE</small></a>
+<ul><li><a href="#about">فلسفه ما</a></li><li><a href="#menu">منو</a></li><li><a href="#gallery">گالری</a></li><li><a href="#reserve">رزرو میز</a></li></ul></nav>
+
+<header class="hero" id="top">
+<div class="hbg"><i></i></div>
+<div class="hc"><span class="eb">Tehran · Fereshteh</span>
+<h1><span class="w" style="--i:0">پخت</span><span class="w" style="--i:1">بر‌آمده</span><span class="w" style="--i:2">از</span><span class="w" style="--i:3">خاک</span><span class="w" style="--i:4">و</span><span class="w" style="--i:5">آتش.</span></h1>
+<p>تجربه‌ای از طعم‌های اصیل در قلب تهران.</p></div>
+<a class="sc" href="#about" aria-label="ادامه">↓</a>
+</header>
+
+<section id="about"><div class="split">
+<div class="imgs"><div class="ph a1 rv"><img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=1000&q=75" alt="سرآشپز در حال پخت" onerror="this.remove()"></div><div class="ph a2 rv"><img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=700&q=75" alt="بشقابی از غذای آتشی" loading="lazy" onerror="this.remove()"></div></div>
+<div class="fu"><span class="eb">Our Philosophy</span><h2>احترام به مواد خام</h2>
+<p>هر دانه، هر ریشه و هر تکه گوشت داستانی دارد که از خاک آغاز شده است. پیش از آنکه آتش را روشن کنیم، به مواد گوش می‌دهیم؛ به فصل‌شان، به دست کشاورزی که پرورده‌شان کرده، به آنچه می‌خواهند باشند.</p>
+<p>هیزم گردو و بلوط ساعت‌ها در تنور سنگی می‌سوزد تا زغالی آرام و عمیق بسازد؛ آتشی که شتاب ندارد و عجله را نمی‌شناسد. اینجا پختن یعنی صبر، یعنی گذاشتن زمان در بشقاب، و رساندن دود و شعله به لحظه‌ای که لقمه‌ی اول را برمی‌دارید.</p>
+<p class="sg">آرمان صفوی · سرآشپز و بنیان‌گذار</p></div>
+</div></section>
+
+<section class="menu" id="menu">
+<div class="mbg" aria-hidden="true">
+<i class="on" style="background-image:url(https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1400&q=70)"></i>
+<i style="background-image:url(https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=1400&q=70)"></i>
+<i style="background-image:url(https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=1400&q=70)"></i>
+<i style="background-image:url(https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=1400&q=70)"></i>
+</div>
+<div class="mc"><div class="hd" style="margin-bottom:4vh"><span class="eb fu">The Menu</span><h2 class="fu">منوی شب</h2></div>
+<ol style="list-style:none">
+<li class="mi fu" tabindex="0"><h3>گوشت دودی با رزماری</h3><span class="pr">۴۸۰,۰۰۰ تومان</span><p>گردن گوساله، دود بلوط، رزماری تازه و نمک دریا</p><div class="mimg"><img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=70" alt="گوشت دودی" loading="lazy" onerror="this.remove()"></div></li>
+<li class="mi fu" tabindex="0"><h3>سیب‌زمینی آتش‌زده</h3><span class="pr">۱۹۵,۰۰۰ تومان</span><p>خفته در زغال، کره‌ی قهوه‌ای و پنیر کوهی</p><div class="mimg"><img src="https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=800&q=70" alt="سیب‌زمینی" loading="lazy" onerror="this.remove()"></div></li>
+<li class="mi fu" tabindex="0"><h3>ماهی روی چوب گردو</h3><span class="pr">۴۱۰,۰۰۰ تومان</span><p>سالمون وحشی، لیمو عمانی و سبزی‌های کبابی</p><div class="mimg"><img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=800&q=70" alt="ماهی" loading="lazy" onerror="this.remove()"></div></li>
+<li class="mi fu" tabindex="0"><h3>بره‌ی هشت‌ساعته</h3><span class="pr">۵۴۰,۰۰۰ تومان</span><p>ران بره، آلوی دودی و عسل کوهی</p><div class="mimg"><img src="https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=800&q=70" alt="بره" loading="lazy" onerror="this.remove()"></div></li>
+</ol></div></section>
+
+<section id="gallery"><div class="hd"><span class="eb fu">Atmosphere</span><h2 class="fu">فضای ما</h2></div>
+<div class="g">
+<figure class="ph rv"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=75" alt="فضای رستوران" loading="lazy" onerror="this.remove()"><figcaption>سالن؛ نور شمع و چوب تیره</figcaption></figure>
+<figure class="ph rv"><img src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=800&q=75" alt="شراب" loading="lazy" onerror="this.remove()"><figcaption>جام شب</figcaption></figure>
+<figure class="ph rv"><img src="https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&w=800&q=75" alt="پخت روی شعله" loading="lazy" onerror="this.remove()"><figcaption>تنور سنگی</figcaption></figure>
+<figure class="ph rv"><img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1400&q=75" alt="بشقاب‌ها" loading="lazy" onerror="this.remove()"><figcaption>بشقاب‌هایی برای لحظه‌ی آخر</figcaption></figure>
+</div></section>
+
+<section class="res" id="reserve"><span class="eb fu">Reservation</span><h2 class="fu">میزی کنار آتش</h2>
+<p class="sub fu">هر شب تنها دوازده میز می‌چینیم تا هر مهمان، آتش و بشقاب خودش را داشته باشد.</p>
+<form class="fu">
+<div class="f"><label for="n">نام و نام خانوادگی</label><input id="n" required autocomplete="name"></div>
+<div class="f"><label for="p">شماره تماس</label><input id="p" type="tel" inputmode="tel" required pattern="[0-9۰-۹]{10,11}" dir="ltr" style="text-align:right" placeholder="شماره موبایل"></div>
+<div class="f"><label>تاریخ</label><div class="dt"></div></div>
+<div class="f"><label for="g">تعداد مهمان</label><select id="g"><option>۱ نفر</option><option selected>۲ نفر</option><option>۳ نفر</option><option>۴ نفر</option><option>۵ نفر</option><option>۶ نفر</option><option>۷ نفر</option><option>۸ نفر</option></select></div>
+<button class="btn">درخواست رزرو</button></form>
+<div class="ok"><h3>سپاس، <span id="nm"></span></h3><p>میز شما به‌زودی توسط تیم ما تایید خواهد شد.</p><p class="sm" id="sm"></p></div>
+</section>
+
+<footer><div class="fg">
+<div><h4>Visit</h4><p>تهران، خیابان فرشته<br>پلاک ۲۴، طبقه‌ی همکف<br><span dir="ltr">۰۲۱ - ۲۲۰۰ ۱۴۰۰</span></p></div>
+<div><h4>Hours</h4><p>همه‌ی شب‌ها<br>۱۸:۰۰ تا ۲۳:۰۰</p></div>
+<div><h4>Follow</h4><p><a href="https://instagram.com" target="_blank" rel="noopener">اینستاگرام</a> · <a href="https://t.me" target="_blank" rel="noopener">تلگرام</a> · <a href="https://wa.me" target="_blank" rel="noopener">واتس‌اپ</a></p></div>
+</div><div class="big">Earth &amp; Fire</div></footer>
+
+<script>
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)],
+rm=matchMedia('(prefers-reduced-motion:reduce)').matches;
+// preloader: starts at DOM ready, short hold only (no waiting for images)
+const go=()=>setTimeout(()=>{$('.pre').classList.add('x');$('.hero').classList.add('go')},500);
+document.readyState==='loading'?document.addEventListener('DOMContentLoaded',go):go();
+// reveals (visible immediately if IntersectionObserver is missing)
+const els=$$('.rv,.fu');
+if('IntersectionObserver' in window){const io=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{rootMargin:'0px 0px -6% 0px'});els.forEach(e=>io.observe(e))}
+else els.forEach(e=>e.classList.add('in'));
+// nav + parallax (native scroll, passive)
+const nav=$('nav'),hb=$('.hbg');let tk=0;
+const onS=()=>{tk=0;const y=scrollY;nav.classList.toggle('s',y>50);if(!rm&&y<innerHeight*1.2)hb.style.transform='translate3d(0,'+y*.28+'px,0)'};
+addEventListener('scroll',()=>{tk||(tk=requestAnimationFrame(onS))},{passive:true});onS();
+// menu: stacked cross-fade (new image fades in over the old one, no dip)
+const L=$$('.mbg i');let z=1,cr=L[0],tm;
+const show=i=>{const l=L[i];if(!l||l===cr)return;l.style.transition='none';l.classList.remove('on');l.offsetWidth;l.style.transition='';l.style.zIndex=++z;l.classList.add('on');cr=l;clearTimeout(tm);tm=setTimeout(()=>L.forEach(x=>x!==cr&&x.classList.remove('on')),1100)};
+$$('.mi').forEach((m,i)=>{m.addEventListener('mouseenter',()=>show(i));m.addEventListener('focus',()=>show(i))});
+// date chips
+const dt=$('.dt'),fa=(d,o)=>d.toLocaleDateString('fa-IR',o);
+for(let i=0;i<7;i++){const d=new Date(Date.now()+864e5*(i+1)),b=document.createElement('button');b.type='button';
+b.innerHTML='<small>'+fa(d,{weekday:'long'})+'</small><b>'+fa(d,{day:'numeric'})+'</b><small>'+fa(d,{month:'long'})+'</small>';
+b.dataset.d=fa(d,{weekday:'long'})+' '+fa(d,{day:'numeric',month:'long'});
+b.onclick=()=>{$$('.dt button').forEach(x=>x.classList.remove('on'));b.classList.add('on')};if(!i)b.onclick();dt.append(b)}
+// reservation: 1.5s loading state, then success
+const fm=$('form'),bt=$('.btn');
+fm.addEventListener('submit',e=>{e.preventDefault();if(bt.disabled)return;bt.disabled=true;bt.classList.add('ld');bt.textContent='در حال ارسال...';
+setTimeout(()=>{$('#nm').textContent=$('#n').value.trim();$('#sm').textContent=$('.dt .on').dataset.d+' · '+$('#g').value;fm.classList.add('out');
+setTimeout(()=>{fm.hidden=true;$('.ok').classList.add('show');$('.ok').scrollIntoView({block:'center'})},rm?0:600)},1500)});
+// custom cursor (fine pointers only)
+if(matchMedia('(hover:hover) and (pointer:fine)').matches&&!rm){const c=$('.cur');document.documentElement.classList.add('hc2');
+addEventListener('mousemove',e=>{c.style.transform='translate3d('+e.clientX+'px,'+e.clientY+'px,0)'},{passive:true});
+document.addEventListener('mouseover',e=>c.classList.toggle('h',!!e.target.closest('a,button,.mi,.ph,input,select')))}
+</script>
+</body>
+</html>
